@@ -3,7 +3,7 @@ import React from "react"
 
 import placeholder from "../images/placeholder.png"
 const TeamTile = ({ name, email, description, image }) => (
-  <div>
+  <div style={{ flex: 1 }}>
     {image ? (
       <img style={{ maxWidth: 200 }} src={image} />
     ) : (

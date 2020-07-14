@@ -49,15 +49,17 @@ const Team = () => {
   return (
     <Layout>
       <Header siteTitle={"Team/Acknowledgments"} />
-      {teamMembers.map(person => (
-        <TeamTile
-          key={person.name}
-          name={person.name}
-          email={person.email}
-          description={person.description || ""}
-          image={person.image || ""}
-        />
-      ))}
+      <div style={{ display: "flex", flexFlow: "row wrap" }}>
+        {teamMembers.map(person => (
+          <TeamTile
+            key={person.name}
+            name={person.name}
+            email={person.email}
+            description={person.description || ""}
+            image={person.image || ""}
+          />
+        ))}
+      </div>
       <Link to="/">Go back to the homepage</Link>
     </Layout>
   )
