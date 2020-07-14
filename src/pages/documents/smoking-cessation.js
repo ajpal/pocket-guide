@@ -9,6 +9,7 @@ const SmokingCessation = () => (
     <Header siteTitle={"Smoking Cessation"} />
     <iframe
       src="https://drive.google.com/file/d/1D-XMYs0wkznJtZBVJlIeY8XOIMjQ67ZC/preview"
+      title="QuitWorks Rhose Island"
       width="100%"
       height="480"
     ></iframe>

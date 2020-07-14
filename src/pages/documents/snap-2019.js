@@ -9,6 +9,7 @@ const Snap2019 = () => (
     <Header siteTitle={"SNAP 2019 Eligibility"} />
     <iframe
       src="https://drive.google.com/file/d/1bbFry-0sW6DCQF8DzTHGz69VeaNGpo0P/preview"
+      title="SNAP Monthly Gross Income Limits"
       width="100%"
       height="480"
     ></iframe>

@@ -9,6 +9,7 @@ const FoodPantries = () => (
     <Header siteTitle={"RI Food Pantries"} />
     <iframe
       src="https://drive.google.com/file/d/1yTgd4lpjqDgjB9ymZ0tY4TgPY9uoPN6F/preview"
+      title="Food Assistance Provider List"
       width="100%"
       height="480"
     ></iframe>

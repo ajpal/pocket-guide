@@ -9,6 +9,7 @@ const WIC = () => (
     <Header siteTitle={"WIC Income Eligibility"} />
     <iframe
       src="https://drive.google.com/file/d/1_o-llnH04MYm2jieoEZ895PqTlzmkwMB/preview"
+      title="WIC Federal Income Guidelines"
       width="100%"
       height="480"
     ></iframe>

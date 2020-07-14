@@ -5,9 +5,13 @@ import placeholder from "../images/placeholder.png"
 const TeamTile = ({ name, email, description, image }) => (
   <div style={{ flex: 1 }}>
     {image ? (
-      <img style={{ maxWidth: 200 }} src={image} />
+      <img style={{ maxWidth: 200 }} src={image} alt={`Headshot of ${name}`} />
     ) : (
-      <img style={{ maxWidth: 200 }} src={placeholder} />
+      <img
+        style={{ maxWidth: 200 }}
+        src={placeholder}
+        alt={`placeholder for ${name}`}
+      />
     )}
     <h1 style={{ fontSize: 28 }}>
       {email ? (
