@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 
 import Header from "../components/header"
 import Layout from "../components/layout"
-import Section from "../components/section"
 
 const Healthcare = () => (
   <Layout>
