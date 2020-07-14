@@ -1,11 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Header from "../components/header"
 import Layout from "../components/layout"
 
 const SubstanceUse = () => (
   <Layout>
-    <h1>Substance Use</h1>
+    <Header siteTitle={"Substance Use"} />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

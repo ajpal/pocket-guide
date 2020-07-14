@@ -1,15 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import Header from "../components/header"
 import Layout from "../components/layout"
-import Image from "../components/image"
 
 const IndexPage = () => (
   <Layout>
-    <h1>White Coat "Pocket" Guide</h1>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
+    <Header siteTitle={'White Coat "Pocket" Guide'} />
     <Link to="/healthcare/">Healthcare</Link> <br />
     <Link to="/mental-health/">Mental Health</Link> <br />
     <Link to="/substance-use/">Substance Use</Link> <br />
