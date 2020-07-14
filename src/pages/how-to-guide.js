@@ -7,6 +7,11 @@ import Layout from "../components/layout"
 const HowToGuide = () => (
   <Layout>
     <Header siteTitle={"How-To Guide"} />
+    <iframe
+      src="https://drive.google.com/file/d/1Yopo-us9fFC53sVHUpr5XFicV91TDNZYbdyLDNLBbsE/preview"
+      width="100%"
+      height="480"
+    ></iframe>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
